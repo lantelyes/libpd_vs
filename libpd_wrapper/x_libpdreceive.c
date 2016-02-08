@@ -3,12 +3,16 @@
  *
  * For information on usage and redistribution, and for a DISCLAIMER OF ALL
  * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *
+ * See https://github.com/libpd/libpd/wiki for documentation
+ *
  */
 
 #include <stdio.h>
 #include "m_pd.h"
 #include "x_libpdreceive.h"
 #include "z_libpd.h"
+#include "z_hooks.h"
 
 static t_class *libpdrec_class;
 
